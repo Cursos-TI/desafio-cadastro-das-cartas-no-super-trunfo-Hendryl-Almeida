@@ -24,4 +24,5 @@ scanf("%.3f", &Pib);
 
 printf("Insira a quantidade de pontos turísticos: \n", pontos_turísticos);
 scanf("%.0f", &pontos_turísticos);
-        }
+   return 0;  
+}
