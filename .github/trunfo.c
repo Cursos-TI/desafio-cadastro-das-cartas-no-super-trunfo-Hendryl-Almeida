@@ -1,6 +1,6 @@
 #include <stdio.h>
         int main(){
-    char[ Cidade1[30];
+    char Cidade1[30];
     char Codigocarta1[20];
     char Estado1[15];
     float Área1, Pib1;
