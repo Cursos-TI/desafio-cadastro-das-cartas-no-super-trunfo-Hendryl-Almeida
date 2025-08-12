@@ -5,6 +5,12 @@
     char Estado1[15];
     float Área1, Pib1;
     int pontos_turísticos1, População1;
+    
+    char Cidade2[30];
+    char codigocarta2[20];
+    char Estado2[15];
+    float Área2, Pib2;
+    int pontos_turísticos2, População2;
 
 printf("Insira a cidade: \n", Cidade1);
    scanf("%s", Cidade1);
@@ -28,12 +34,6 @@ printf("Insira a quantidade de pontos turísticos: \n", pontos_turísticos1);
 scanf("%d", &pontos_turísticos1);
    
 printf("carta 2\n");
-
-char Cidade2[30];
-    char codigocarta2[20];
-    char Estado2[15];
-    float Área2, Pib2;
-    int pontos_turísticos2, População2;
     
     printf("Insira a cidade: \n", Cidade2);
    scanf("%s", Cidade2);
