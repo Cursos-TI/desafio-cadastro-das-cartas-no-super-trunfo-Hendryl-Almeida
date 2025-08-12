@@ -27,7 +27,7 @@ scanf("%f", &Pib1);
 printf("Insira a quantidade de pontos turísticos: \n", pontos_turísticos1);
 scanf("%d", &pontos_turísticos1);
    
-printf("\n");
+printf("carta 2\n");
 
 char Cidade2[30];
     char codigocarta2[20];
