@@ -12,13 +12,13 @@
     float Área2, Pib2;
     int pontos_turísticos2, População2;
 
-printf("Insira a cidade: \n", Cidade1);
+printf("Insira a cidade: \n");
    scanf("%s", Cidade1);
 
-printf("Insira o código da cidade: \n",Codigocarta1);
+printf("Insira o código da cidade: \n");
 scanf("%s", Codigocarta1);
 
-printf("Insira o Estado da cidade: \n", Estado1);
+printf("Insira o Estado da cidade: \n");
 scanf("%s", Estado1);
 
 printf("Insira a População cidade: \n", População1);
@@ -35,13 +35,13 @@ scanf("%d", &pontos_turísticos1);
    
 scanf("carta 2\n");
     
-    printf("Insira a cidade: \n", Cidade2);
+    printf("Insira a cidade: \n");
    scanf("%s", Cidade2);
 
-printf("Insira o código da cidade: \n",Codigocarta2);
+printf("Insira o código da cidade: \n");
 scanf("%s", Codigocarta2);
 
-printf("Insira o Estado da cidade: \n", Estado2);
+printf("Insira o Estado da cidade: \n");
 scanf("%s", Estado2);
 
 printf("Insira a População cidade: \n", População2);
