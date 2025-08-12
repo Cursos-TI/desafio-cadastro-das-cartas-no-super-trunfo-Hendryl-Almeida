@@ -33,7 +33,7 @@ scanf("%f", &Pib1);
 printf("Insira a quantidade de pontos turísticos: \n", pontos_turísticos1);
 scanf("%d", &pontos_turísticos1);
    
-printf("carta 2\n");
+scanf("carta 2\n");
     
     printf("Insira a cidade: \n", Cidade2);
    scanf("%s", Cidade2);
