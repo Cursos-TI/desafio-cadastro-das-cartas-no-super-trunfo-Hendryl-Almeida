@@ -13,7 +13,7 @@
     int pontos_turísticos2, Populaçao2;
 
 printf("Insira a cidade: \n");
-   scanf("%s", Cidade1);
+   scanf("%29[^\n]", Cidade1);
 
 printf("Insira o código da cidade: \n");
 scanf("%s", Codigocarta1);
@@ -33,10 +33,10 @@ scanf("%f", &Pib1);
 printf("Insira a quantidade de pontos turísticos: \n", pontos_turísticos1);
 scanf("%d", &pontos_turísticos1);
    
-scanf("carta 2\n");
+printf("carta 2\n");
     
     printf("Insira a cidade: \n");
-   scanf("%s", Cidade2);
+   scanf("%29[^\n]", Cidade2);
 
 printf("Insira o código da cidade: \n");
 scanf("%s", Codigocarta2);
