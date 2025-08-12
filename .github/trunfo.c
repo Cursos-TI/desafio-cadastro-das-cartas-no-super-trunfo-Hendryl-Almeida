@@ -7,7 +7,7 @@
     int pontos_turísticos1, Populaçao1;
     
     char Cidade2[30];
-    char codigocarta2[20];
+    char Codigocarta2[20];
     char Estado2[15];
     float Area2, Pib2;
     int pontos_turísticos2, Populaçao2;
