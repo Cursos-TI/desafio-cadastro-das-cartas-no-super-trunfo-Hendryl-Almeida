@@ -1,8 +1,8 @@
 #include <stdio.h>
         int main(){
-    char[30] Cidade1;
-    char[10] codigocarta1;
-    char[20] Estado1;
+    char[ Cidade1[30];
+    char Codigocarta1[20];
+    char Estado1[15];
     float Área1, Pib1;
     int pontos_turísticos1, População1;
 
@@ -29,11 +29,34 @@ scanf("%d", &pontos_turísticos1);
    
 printf("\n");
 
-char[30] Cidade2;
-    char[10] codigocarta2;
-    char[20] Estado2;
+char Cidade2[30];
+    char codigocarta2[20];
+    char Estado2[15];
     float Área2, Pib2;
     int pontos_turísticos2, População2;
+    
+    printf("Insira a cidade: \n", Cidade2);
+   scanf("%s", Cidade2);
+
+printf("Insira o código da cidade: \n",Codigocarta2);
+scanf("%s", Codigocarta2);
+
+printf("Insira o Estado da cidade: \n", Estado2);
+scanf("%s", Estado2);
+
+printf("Insira a População cidade: \n", População2);
+scanf("%d", &População2);
+
+printf("Insira a Área da cidade:  \n", Área2);
+scanf("%f", &Área2);
+
+printf("insira o Pib da cidade: \n", Pib2);
+scanf("%f", &Pib2);
+
+printf("Insira a quantidade de pontos turísticos: \n", pontos_turísticos2);
+scanf("%d", &pontos_turísticos2);
+   
+printf("\n");
 
 return 0;  
 }
