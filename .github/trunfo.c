@@ -21,16 +21,16 @@ scanf("%s", Codigocarta1);
 printf("Insira o Estado da cidade: \n");
 scanf("%s", Estado1);
 
-printf("Insira a População cidade: \n", Populaçao1);
+printf("Insira a População cidade: \n");
 scanf("%d", &Populaçao1);
 
-printf("Insira a Área da cidade:  \n", Area1);
+printf("Insira a Área da cidade:  \n");
 scanf("%f", &Area1);
 
-printf("insira o Pib da cidade: \n", Pib1);
+printf("insira o Pib da cidade: \n");
 scanf("%f", &Pib1);
 
-printf("Insira a quantidade de pontos turísticos: \n", pontos_turísticos1);
+printf("Insira a quantidade de pontos turísticos: \n");
 scanf("%d", &pontos_turísticos1);
    
 printf("carta 2\n");
@@ -39,24 +39,43 @@ printf("carta 2\n");
    scanf("%29[^\n]", Cidade2);
 
 printf("Insira o código da cidade: \n");
-scanf("%s", Codigocarta2);
+scanf("%s", Codigocarta2)
+
 
 printf("Insira o Estado da cidade: \n");
 scanf("%s", Estado2);
 
-printf("Insira a População cidade: \n", Populaçao2);
+printf("Insira a População cidade: \n");
 scanf("%d", &Populaçao2);
 
-printf("Insira a Área da cidade:  \n", Area2);
+printf("Insira a Área da cidade:  \n");
 scanf("%f", &Area2);
 
-printf("insira o Pib da cidade: \n", Pib2);
+printf("insira o Pib da cidade: \n");
 scanf("%f", &Pib2);
 
-printf("Insira a quantidade de pontos turísticos: \n", pontos_turísticos2);
+printf("Insira a quantidade de pontos turísticos: \n");
 scanf("%d", &pontos_turísticos2);
    
 printf("\n");
+printf("\n--- Dados da Carta 1 ---\n"); printf("Cidade: %s\n", Cidade1); printf("Codigo: %s\n", Codigocarta1); printf("Estado: %s\n", Estado1); 
+printf("Populacao: %d\n", Populaçao1); printf("Area: %.2f km²\n", Area1); 
+printf("PIB: %.2f\n", Pib1); printf("Pontos Turisticos: %d\n", pontos_turísticos1); 
+
+printf("\n--- Dados da Carta 1 ---\n"); printf("Cidade: %s\n", Cidade1); printf("Codigo: %s\n", Codigocarta1); 
+printf("Estado: %s\n", Estado1); 
+printf("Populacao: %d\n", Populaçao1); printf("Area: %.2f km²\n", Area1); printf("PIB: %.2f\n", Pib1);printf("Pontos Turisticos: %d\n", pontos_turísticos1); 
+
+
 
 return 0;  
+
+
+
+
+
+
+
+
+
 }
