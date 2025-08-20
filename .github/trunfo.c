@@ -17,7 +17,7 @@
     float Densidade_populacional2;
 
 printf("Insira a cidade: \n");
-   scanf("%29[^\n]", Cidade1);
+   scanf("%s", Cidade1);
 
 printf("Insira o código da cidade: \n");
 scanf("%s", Codigocarta1);
@@ -42,7 +42,7 @@ Pib_per_capita1 = Pib1 / Populacao1
 printf("carta 2\n");
     
     printf("Insira a cidade: \n");
-   scanf("%29[^\n]", Cidade2);
+   scanf("%s", Cidade2);
 
 printf("Insira o código da cidade: \n");
 scanf("%s", Codigocarta2);
