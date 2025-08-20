@@ -26,7 +26,7 @@ printf("Insira o Estado da cidade: \n");
 scanf("%s", Estado1);
 
 printf("Insira a População cidade: \n");
-scanf("%d", &Populaçao1);
+scanf("%d", &Populacao1);
 
 printf("Insira a Área da cidade:  \n");
 scanf("%f", &Area1);
@@ -52,7 +52,7 @@ printf("Insira o Estado da cidade: \n");
 scanf("%s", Estado2);
 
 printf("Insira a População cidade: \n");
-scanf("%d", &Populaçao2);
+scanf("%d", &Populacao2);
 
 printf("Insira a Área da cidade:  \n");
 scanf("%f", &Area2);
