@@ -17,7 +17,7 @@
     float Pib_per_capita2;
     float Densidade_populacional2;
     float Super_poder2;
-    int resultado1, resultado2, resultado3, resultado4, resultado5, resultado6, resultado7 resultado8;
+    int resultado1, resultado2, resultado3, resultado4, resultado5, resultado6, resultado7;
 
 
 printf("Insira a cidade: \n");
@@ -90,18 +90,19 @@ printf("Estado: %s\n", Estado2);
 printf("Populacao: %d\n", Populacao2); printf("Area: %.2f\n", Area2); 
 printf("PIB: %.2f\n", Pib2); printf("Pontos Turisticos: %d\n", pontos_turisticos2);
 printf("Densidade populacional: %.f\n", Densidade_popucacional2);
-printf("Pib per capita: %f\n", Pib_per_capita2);
+printf("Pib per capita: %.2f\n", Pib_per_capita2);
 printf("O super poder é: %.2f\n", Super_poder2);
 
 resultado1 = Area1 > Area2;
 resultado2 = Pib1 > Pib2;
 resultado3 = Pib_per_capita1 > Pib_per_capita2;
-resultado4 = pontos_turisticos1 > pontos_turisticos2;
+resultado4 = Populacao1 > Populacao2;
+resultado5 = pontos_turisticos1 > pontos_turisticos2;
+resultado6 = Densidade_popucacional1 < Densidade_populacional2;
+resultado7 = Super_poder1 > Super_poder2; 
 
 
 
-printf("")
-
-
-return 0;  
+// printf("")
+ 
 }
