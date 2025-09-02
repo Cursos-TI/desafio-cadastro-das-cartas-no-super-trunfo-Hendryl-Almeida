@@ -6,7 +6,7 @@
     float Area1, Pib1;
     int pontos_turisticos1, Populacao1;
     float Pib_per_capita1;
-    float Densidade_popucacional1;
+    float Densidade_populacional1;
     float Super_poder1;
     
     char Cidade2[30];
@@ -27,7 +27,7 @@ printf("Insira o código da cidade: \n");
 scanf("%s", Codigocarta1);
 
 printf("Insira o Estado da cidade: \n");
-scanf("%c", &Estado1);
+scanf("%s", Estado1);
 
 printf("Insira a População cidade: \n");
 scanf("%d", &Populacao1);
@@ -40,9 +40,9 @@ scanf("%f", &Pib1);
 
 printf("Insira a quantidade de pontos turísticos: \n");
 scanf("%d", &pontos_turisticos1);
-Densidade_popucacional1 = Populacao1 / Area1;
+Densidade_populacional1 = Populacao1 / Area1;
 Pib_per_capita1 = Pib1 / Populacao1;
-Super_poder1 = Area1 + Pib1 + Populacao1 + (1 / Densidade_popucacional1) + Pib_per_capita1;
+Super_poder1 = Area1 + Pib1 + Populacao1 + (1.0 / Densidade_populacional1) + Pib_per_capita1;
 
    
 printf("carta 2\n");
@@ -55,7 +55,7 @@ scanf("%s", Codigocarta2);
 
 
 printf("Insira o Estado da cidade: \n");
-scanf("%c", &Estado2);
+scanf("%s", Estado2);
 
 printf("Insira a População cidade: \n");
 scanf("%d", &Populacao2);
@@ -70,7 +70,7 @@ printf("Insira a quantidade de pontos turísticos: \n");
 scanf("%d", &pontos_turisticos2);
 Densidade_populacional2 = Populacao2 / Area2;
 Pib_per_capita2 = Pib2 / Populacao2;
-Super_poder2 = Area2 + Pib2 + Populacao2 + (1 / Densidade_popucacional2) + Pib_per_capita2;
+Super_poder2 = Area2 + Pib2 + Populacao2 + (1.0 / Densidade_populacional2) + Pib_per_capita2;
 
    
 printf("\n");
@@ -79,7 +79,7 @@ printf("Cidade: %s\n", Cidade1); printf("Codigo: %s\n", Codigocarta1);
 printf("Estado: %s\n", Estado1); 
 printf("Populacao: %d\n", Populacao1); printf("Area: %.2f\n", Area1); 
 printf("PIB: %.2f\n", Pib1); printf("Pontos Turisticos: %d\n", pontos_turisticos1);
-printf("Densidade populacional: %.f\n", Densidade_popucacional1);
+printf("Densidade populacional: %.f\n", Densidade_populacional1);
 printf("Pib per capita: %f\n", Pib_per_capita1);
 printf("O Super poder é: %.2f\n", Super_poder1);
 
@@ -89,7 +89,7 @@ printf("Cidade: %s\n", Cidade2); printf("Codigo: %s\n", Codigocarta2);
 printf("Estado: %s\n", Estado2); 
 printf("Populacao: %d\n", Populacao2); printf("Area: %.2f\n", Area2); 
 printf("PIB: %.2f\n", Pib2); printf("Pontos Turisticos: %d\n", pontos_turisticos2);
-printf("Densidade populacional: %.f\n", Densidade_popucacional2);
+printf("Densidade populacional: %.f\n", Densidade_populacional2);
 printf("Pib per capita: %.2f\n", Pib_per_capita2);
 printf("O super poder é: %.2f\n", Super_poder2);
 
@@ -98,11 +98,23 @@ resultado2 = Pib1 > Pib2;
 resultado3 = Pib_per_capita1 > Pib_per_capita2;
 resultado4 = Populacao1 > Populacao2;
 resultado5 = pontos_turisticos1 > pontos_turisticos2;
-resultado6 = Densidade_popucacional1 < Densidade_populacional2;
+resultado6 = Densidade_populacional1 < Densidade_populacional2;
 resultado7 = Super_poder1 > Super_poder2; 
-printf("a maior área é: \n", resultado1);
-printf("O maior pib é: \n", resultado2);
+printf("a maior área é: %d\n", resultado1);
+printf("O maior pib é: %d\n", resultado2);
+printf("Melhor Pib per capita: %d\n", resultado3);
+printf("Maior população: %d\n", resultado4);
+printf("Maior quantidade de pontos turísticos: %d\n", resultado5);
+printf("Melhor densidade populacional: %d\n", resultado6);
+printf("Maior poder: %d\n", resultado7);
 
+
+
+
+
+
+
+return 0;
 
 // printf("")
  
