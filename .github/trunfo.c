@@ -93,6 +93,7 @@ printf("Densidade populacional: %.f\n", Densidade_populacional2);
 printf("Pib per capita: %.2f\n", Pib_per_capita2);
 printf("O super poder é: %.2f\n", Super_poder2);
 
+printf("\n");
 resultado1 = Area1 > Area2;
 resultado2 = Pib1 > Pib2;
 resultado3 = Pib_per_capita1 > Pib_per_capita2;
