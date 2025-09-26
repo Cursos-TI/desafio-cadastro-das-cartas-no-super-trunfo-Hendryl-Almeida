@@ -18,6 +18,7 @@
     float Densidade_populacional2;
     float Super_poder2;
     char atributo1, atributo2;
+    // super trunfo desenvolvendo mestre
 
 printf("Insira a cidade: \n");
    scanf("%s", Cidade1);
@@ -157,14 +158,37 @@ if (atributo1 == atributo2)
 
 switch (atributo2)
 {
-case constant expression:
-    /* code */
-    break;
+case 1: Resultado2 = Area1 > Area2 ? 1 : 0
+printf("Você escolheu Área\n");
+    
+break;
+    case 2: Resultado2 = Pib1 > Pib2 ? 1 : 0 
+    printf("Você escolheu Pib \n");
 
+    break;
+    case 3: Resultado2 = pontos_turisticos1 > pontos_turisticos2 ? 1 : 0 
+    printf("Você escolheu pontos turis´ticos \n");
+ 
+break;
+case 4: if Resultado2 = Populacao1 > Populacao2 ? 1 : 0 
+printf("Você escolheu Populaçâo \n");
+
+break;
+    case 5: Resultado2 = Pib_per_capita1 > Pib_per_capita2 ? 1 : 0 
+    printf("Você escolheu pib per capita \n");
+
+    break;
+    case 6: Resultado2 = Densidade_populacional1 < Densidade_populacional2 ? 1 : 0 
+    printf("Você escolheu densidade populacional \n");
+
+break;
+    case 7: Resultado2 = Super_poder1 > Super_poder2 ? 1 : 0 
+    printf("Você escolheu super poder \n");
+
+    break;
 default:
-    break;
-}
-
+printf("Você não selecionou nenhuma característica das cartas. \n");
+break;
 return 0;
   
 }

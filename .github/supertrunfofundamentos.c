@@ -18,7 +18,7 @@
     float Densidade_populacional2;
     float Super_poder2;
     int resultado1, resultado2, resultado3, resultado4, resultado5, resultado6, resultado7;
-
+// desafio trunfo fundamentos mestre
 
 printf("Insira a cidade: \n");
    scanf("%s", Cidade1);
